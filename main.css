@@ -1,26 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header {
-  background-image: url(img/thinh.jpg);
-  color: aliceblue;
-  padding: 10px;
-  font-family: Helvetica;
-}
-h1 {
-  text-align: center;
-}
-p {
-  text-align: center;
+  padding: 0px, 20px;
+  color: yellow;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
 }
 
-body {
-  background: white;
-  margin: 0;
+header.logo {
+  width: 30%;
+  /* chuyển hoá toàn bộ thành in Hoa */
+  text-transform: uppercase;
 }
-section {
-  padding: 10px;
+header ul.menu {
+  display: flex;
+  list-style: none;
 }
-.card {
-  background: black;
-  color: azure;
-  padding: 5px;
-  border-radius: 10px;
+/* để chử cách nhau */
+header ul.menu > li {
+  padding: 20px;
+  border-right: 1px solid #fff;
+}
+#gt:active {
+  background: blue;
+  color: yellow;
+}
+#gt:hover {
+  background: blue;
+  color: yellow;
+}
+
+.tt {
+  float: right;
+}
+
+h1,
+h2 {
+  font-family: cursive;
+}
+#st {
+  display: flex;
+  align-items: center;
 }
